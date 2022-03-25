@@ -12,17 +12,20 @@ function App() {
   }, [])
   return (
     <div className="App">
+      <h1 className='text-center my-3'>Ring Chooser</h1>
       <div className='container d-flex justify-content-center my-3'>
         <div className='row d-flex justify-content-between'>
-          <div className='col-md-9'>
+          <div className='col-md-8'>
             <div className='row'>
               {
                 products.map(product => <Shop product={product} key={product.id}></Shop>)
               }
             </div>
           </div>
-          <div className='cart-container col-md-3'>
-            <p> this is a cart</p>
+          <div className='cart-container col-md-3 d-flex justify-content-end'>
+            <div className='bg w-100 text-center p-3'>
+              <h4 className='fw-bold'>Selected Rings: </h4>
+            </div>
           </div>
         </div>
       </div>
