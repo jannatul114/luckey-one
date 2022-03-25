@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "name": "YouBella Jewellery Stylish Silver Plated Solitaire Crystal Ring for Women and Girls",
+        "price": 4200,
+        "img": "https://images.unsplash.com/photo-1583937443566-6fe1a1c6e400?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": "2",
+        "name": "Karatcart Platinum Plated Elegant Austrian Crystal Adjustable Band Ring for Women",
+        "price": 5200,
+        "img": "https://images.unsplash.com/photo-1589674574101-bb9ebf36ffc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": "3",
+        "name": "GIVA 925 Sterling Silver Zircon Vintage Ring, Adjustable",
+        "price": 6200,
+        "img": "https://images.unsplash.com/photo-1589674552723-19e476b514e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": "4",
+        "name": "GIVA 925 Sterling Silver Esha’s Queen’s Crown Ring, Adjustable",
+        "price": 8200,
+        "img": "https://media.istockphoto.com/photos/rings-picture-id120661287?k=20&m=120661287&s=170667a&w=0&h=qUWJl3iiuQV61x7ggV9khzgPay-bMI2eas6LfkxDp84="
+    },
+    {
+        "id": "5",
+        "name": "Karatcart Platinum Plated Elegant Classic Crystal Adjustable Ring",
+        "price": 3200,
+        "img": "https://media.istockphoto.com/photos/diamond-ring-picture-id175493596?k=20&m=175493596&s=170667a&w=0&h=trHTgQhHHIQdfzbQgw6GqCfMP5TKTnfxe-tkbJtqyOo="
+    },
+    {
+        "id": "6",
+        "name": "CLARA Pure Real 925 Sterling Silver Adjustable Ring ",
+        "price": 7200,
+        "img": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": "7",
+        "name": "YELLOW CHIMES Crystals from Swarovski Silver Crystal Designer Ring",
+        "price": 4200,
+        "img": "https://images.unsplash.com/photo-1603561596112-0a132b757442?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": "8",
+        "name": "Oxidised Combo of 15 Boho Silver Plated Rings",
+        "price": 2200,
+        "img": "https://images.unsplash.com/photo-1591209662757-ab76fb411c70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": "9",
+        "name": "Combo of 13 Boho Silver Plated Rings",
+        "price": 7200,
+        "img": "https://images.unsplash.com/photo-1588445046108-14dced0c98fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": "10",
+        "name": "Real 925 Sterling Silver Adjustable Ring",
+        "price": 2200,
+        "img": "https://images.unsplash.com/photo-1586104237516-5b7075e00d45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": "11",
+        "name": "Sterling Silver Classic Solitaire Ring,",
+        "price": 7200,
+        "img": "https://images.unsplash.com/photo-1589674799058-82430f276350?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": "12",
+        "name": "Platinum Plated Elegant Classic Crystal Adjustable Ring",
+        "price": 9200,
+        "img": "https://images.unsplash.com/photo-1583937443566-6fe1a1c6e400?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+    }
+]
