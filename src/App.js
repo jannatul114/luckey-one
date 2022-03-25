@@ -15,8 +15,17 @@ function App() {
 
   const cartProduct = (product) => {
     const newCart = [...carts, product];
-    console.log(newCart);
-    setCarts(newCart);
+    if (newCart.length > 4) {
+      alert("You can't add cart more then 4 product")
+    }
+    else {
+      setCarts(newCart);
+    }
+  }
+
+  const clearCart = () => {
+    const removeItems = [];
+    setCarts(removeItems)
   }
   return (
     <div className="App">
@@ -30,11 +39,11 @@ function App() {
               }
             </div>
           </div>
-          <div className='cart-container col-md-4 d-flex justify-content-center'>
-            <div className='bg w-100 text-center p-3'>
+          <div className='cart-container col-md-4 d-flex justify-content-center '>
+            <div className='bg w-100 text-center p-3 rounded-3'>
               <h4 className='fw-bold'>Selected Rings: </h4>
-              <button className='bg-none border-2 border-primary p-2 rounded-3 m-2'>Choose 1 for me</button>
-              <button className='bg-none border-2 border-danger p-2 rounded-3'>Choose Again</button>
+              <button className='bg-none border-2 border-primary p-2 rounded-3 m-2 btn btn-outline-primary'>Choose 1 for me</button>
+              <button className='bg-none border-2 border-danger p-2 rounded-3 btn btn-outline-danger' onClick={clearCart}>Choose Again</button>
               {
                 carts.map(cart => <Cart cart={cart} key={cart.id}></Cart>)
               }
