@@ -1,6 +1,6 @@
 # Ring Chooser
 
- website link [live site link:](https://ring-chooser-project-mithila.netlify.app/).
+ live site link: [https://ring-chooser-project-mithila.netlify.app/](https://ring-chooser-project-mithila.netlify.app/).
 
 <!-- ## Available Scripts
 
