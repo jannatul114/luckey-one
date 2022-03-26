@@ -11,7 +11,9 @@
     order: 2;
     /* align-items: center; */
   }
-
+  .App{
+    overflow-x: hidden;
+  }
   .cart-container{
     order: 1;
   }
