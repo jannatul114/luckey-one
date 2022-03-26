@@ -6,7 +6,12 @@ import './App.css';
 import Cart from './components/Cart/Cart';
 import Shop from './components/Shop/Shop';
 
+
+// document.getElementById('choose-btn').style.display = 'none';
+// document.getElementById('delete-btn').style.display = 'none';
 function App() {
+  // const d = document.querySelector('#choose-btn').style.display = 'none';
+  // console.log(d);
   const [products, setProduct] = useState([]);
   const [carts, setCarts] = useState([]);
 
@@ -38,13 +43,16 @@ function App() {
   const [random, setRandom] = useState([]);
   const randomProduct = () => {
     let item = carts[Math.floor(Math.random() * carts.length)];
-    setRandom(item)
+
     if (item) {
       if (carts.length > 1) {
-
+        setRandom(item)
+        // document.querySelector('#choose-btn').style.display = 'block';
       }
       else {
         alert('please choose more for get rangom')
+        // document.querySelector('.buttons').style.display = 'none';
+
       }
     }
   }
@@ -89,9 +97,9 @@ function App() {
 
 
 
-              <button className='bg-none border-2 border-primary p-2 rounded-3 m-2 btn btn-outline-primary' onClick={randomProduct}>Choose 1 for me</button>
+              <button id='choose-btn' className='buttons bg-none border-2 border-primary p-2 rounded-3 m-2 btn btn-outline-primary' onClick={randomProduct}>Choose 1 for me</button>
 
-              <button className='bg-none border-2 border-danger p-2 rounded-3 btn btn-outline-danger' onClick={clearCart}>Choose Again</button>
+              <button id='delete-btn' className='buttons bg-none border-2 border-danger p-2 rounded-3 btn btn-outline-danger' onClick={clearCart}>Choose Again</button>
               {
                 carts.map(cart => <Cart cart={cart} key={cart.id} randomProduct={randomProduct} random={random}></Cart>)
               }
@@ -105,27 +113,27 @@ function App() {
         <h2 className='text-center fw-bold my-3'>Questions</h2>
         <div className='container d-flex justify-content-center'>
           <div className='w-75'>
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    How React Works?
+            <div className="accordion" id="accordionExample">
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="headingOne">
+                  <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h4> How React Works?</h4>
                   </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
+                <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div className="accordion-body">
                     First, React creates a virtual dome, also called a soft copy of the Real Dom. Virtual domes are cleaner, lighter, simpler than real domes. It is able to quickly capture changes to JavaScript code. Virtual Dome uses diff algorithm. The diff algorithm compares the virtual dome and the real dome. And lists the changes of the 2 domes. And finally it is shown in UI
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Props Vs State
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="headingTwo">
+                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h4> Props Vs State</h4>
                   </button>
                 </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
+                <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div className="accordion-body">
                     some diffrence between props and state are:
                     <ul>
                       <li>State holds information about a components on the other hand, Props are use to pass data from one component to another component.</li>
