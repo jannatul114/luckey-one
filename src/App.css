@@ -5,3 +5,15 @@
 .bg{
   background-color: rgb(240, 234, 234);
 }
+
+@media only screen and (max-width: 600px) {
+  .product-container{
+    order: 2;
+    /* align-items: center; */
+  }
+
+  .cart-container{
+    order: 1;
+  }
+
+}
