@@ -5,6 +5,7 @@ import React from 'react';
 const Cart = (props) => {
     const { cart } = props;
     const { img, name } = cart;
+
     return (
         <div>
             <div className='row d-flex align-items-center bg-light my-3 m-2 p-2 border border-secondary rounded-3 gy-2'>
